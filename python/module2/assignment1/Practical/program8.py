@@ -1,17 +1,9 @@
 # a list contains a sublist
 
-def contains_sublist(main_list, sub_list):
-    # Check if sub_list exists inside main_list
-    for i in range(len(main_list) - len(sub_list) + 1):
-        if main_list[i:i+len(sub_list)] == sub_list:
-            return True
-    return False
+main_list = list(map(int, input("Enter main list: ").split()))
+sub_list = list(map(int, input("Enter sublist: ").split()))
 
-main = [1, 2, 3, 4, 5, 6]
-sub = [3]
-
-if contains_sublist(main, sub):
-    print("Sublist found.")
+if str(sub_list)[1:-1] in str(main_list)[1:-1]:
+    print("Sublist exists")
 else:
-    print("Sublist not found.")
-
+    print("Sublist does not exist")
