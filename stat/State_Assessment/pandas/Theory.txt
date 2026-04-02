@@ -1,0 +1,59 @@
+--------------Pending-------------- 
+
+13. What are the features of TensorFlow? 
+
+Open-Source Platform: TensorFlow is free to use and supported by a large community of developers and researchers.
+
+End-to-End Machine Learning Support: It provides tools for data preprocessing, model building, training, evaluation, and deployment.
+
+Flexible Architecture: TensorFlow can run on CPUs, GPUs, and TPUs, making it suitable for small and large-scale projects.
+
+Cross-Platform Compatibility: Models can run on desktops, mobile devices, browsers, and cloud platforms.
+
+Model Deployment Tools: Includes TensorFlow Serving, TensorFlow Lite, and TensorFlow.js for deployment in various environments.
+
+Automatic Differentiation: Provides efficient gradient computation for training deep learning models.
+
+High Scalability: Handles large datasets and complex deep learning architectures efficiently.
+
+==============================================================================
+
+14. List a few limitations of TensorFlow. 
+
+Steep Learning Curve: Beginners may find TensorFlow difficult to understand, especially low-level APIs.
+
+Complex Debugging: Debugging TensorFlow models is less intuitive compared to PyTorch.
+
+Verbose Syntax: Code can become long and complicated for simple tasks.
+
+Slower in Certain Cases: Some model training tasks may be slower compared to PyTorch implementations.
+
+Version Compatibility Issues: Upgrading between TensorFlow versions can cause code-breaking changes.
+
+Legacy Static Graph Issues: TensorFlow 1.x used static graphs, which were harder to modify (though improved in TensorFlow 2.x).
+
+Less Ideal for Rapid Research: Researchers often prefer PyTorch for quick experimentation due to its dynamic computation graph.
+
+========================================================================
+15. What do you know about supervised and unsupervised machine learning?
+
+Supervised Machine Learning
+
+Supervised learning is a type of machine learning where the model is trained using labeled data, meaning both input and output values are provided.
+The main objective is to learn a mapping from inputs to outputs.
+
+Purpose: Prediction and classification.
+
+Common Algorithms: Linear Regression, Logistic Regression, Decision Trees, Support Vector Machines, Neural Networks.
+
+Applications: Email spam detection, price prediction, fraud detection, image classification.
+
+Unsupervised Machine Learning
+
+Unsupervised learning deals with unlabeled data, where the model tries to identify patterns, structures, or groupings without predefined outputs.
+
+Purpose: Pattern recognition, clustering, dimensionality reduction.
+
+Common Algorithms: K-Means Clustering, Hierarchical Clustering, PCA, Autoencoders.
+
+Applications: Customer segmentation, anomaly detection, grouping similar items, data compression.
